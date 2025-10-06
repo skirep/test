@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android
+*.apk
+*.ap_
+*.dex
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild
+.cxx
+
+# LibGDX
+assets-raw/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Kotlin
+*.kotlin_module
+
+# Logs
+*.log
+
+# Temporary files
+*~
+*.swp
+*.swo
+.tmp/
+tmp/
