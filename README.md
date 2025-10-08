@@ -145,6 +145,21 @@ cd test
 ./gradlew android:run
 ```
 
+### Amb GitHub Actions
+
+El projecte inclou un workflow de GitHub Actions que genera automàticament l'APK:
+
+- **Activació automàtica**: S'executa en cada push a les branques `main` o `develop`, i en pull requests
+- **Activació manual**: Pots executar-lo manualment des de la pestanya "Actions" del repositori
+- **Artefactes**: Els APKs generats (debug i release) es poden descarregar des de la pàgina del workflow
+- **Retenció**: Els artefactes es guarden durant 30 dies
+
+Per executar manualment el workflow:
+1. Ves a la pestanya "Actions" del repositori a GitHub
+2. Selecciona "Build Android APK" a la llista de workflows
+3. Clica "Run workflow" i selecciona la branca
+4. Un cop completat, descarrega l'APK des de la secció "Artifacts"
+
 ## Com Jugar
 
 1. **Menú Principal**: Toca la pantalla per començar
