@@ -112,9 +112,9 @@ SomnisDeFusta/
 ## Requisits
 
 - Android Studio Arctic Fox o superior
-- JDK 11 o superior
+- JDK 17 o superior
 - Android SDK (API 24+)
-- Gradle 7.0+
+- Gradle 8.0+
 
 ## Compilació i Execució
 
